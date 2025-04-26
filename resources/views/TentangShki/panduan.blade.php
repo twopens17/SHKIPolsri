@@ -1,12 +1,14 @@
 <x-layout>
     <div class="flex flex-col items-center max-w-5xl mx-auto mt-20 px-6">
+        <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full mb-4"></div>
         <h1 class="text-yellow-500 text-3xl ">Panduan</h1>
         <h1 class="text-black text-4xl md:text-5xl ">Kekayaan Intelektual</h1>
+        <p class="text-gray-500 mt-2 mb-4 text-center max-w-lg">Panduan lengkap untuk memudahkan Anda dalam mengakses dan memanfaatkan layanan Sentra HKI Polsri.</p>
+        <span class="inline-block bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">8 Panduan</span>
 
         <!-- FAQ Container -->
         <div class="w-full mt-10 space-y-4">
             <div x-data="{ open: null }" class="bg-white shadow-lg rounded-xl overflow-hidden">
-                <!-- FAQ Item 1 -->
                 <div>
                     <button @click="open === 1 ? open = null : open = 1" class="flex justify-between w-full p-5 text-lg font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 transition">
                         <span class="text-yellow-500">Apa itu Flowbite?</span>
@@ -42,7 +44,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 2 -->
                 <div>
                     <button @click="open === 2 ? open = null : open = 2" class="flex justify-between w-full p-5 text-lg font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 transition">
                         <span class="text-yellow-500">Apakah ada file Figma yang tersedia?</span>
@@ -55,7 +56,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 3 -->
                 <div>
                     <button @click="open === 3 ? open = null : open = 3" class="flex justify-between w-full p-5 text-lg font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 transition">
                         <span class="text-yellow-500">Apa perbedaan antara Flowbite dan Tailwind UI?</span>

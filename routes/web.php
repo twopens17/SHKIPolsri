@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/profile', function () {
-    return view('profile');
+    return view('TentangShki.profile');
 });
 
 Route::get('/kontak', function () {
@@ -15,47 +15,47 @@ Route::get('/kontak', function () {
 });
 
 Route::get('/sejarah', function () {
-    return view('sejarah');
+    return view('TentangShki.sejarah');
 });
 
 Route::get('/visimisi', function () {
-    return view('visimisi');
+    return view('TentangShki.visimisi');
 });
 
 Route::get('/prestasi', function () {
-    return view('prestasi');
+    return view('TentangShki.prestasi');
 });
 
 Route::get('/struktur', function () {
-    return view('struktur');
+    return view('TentangShki.struktur');
 });
 
 Route::get('/panduan', function () {
-    return view('panduan');
+    return view('TentangShki.panduan');
 });
 
 Route::get('/testimoni', function () {
-    return view('testimoni');
+    return view('TentangShki.testimoni');
 });
 
 Route::get('/hakcipta', function () {
-    return view('hakcipta');
+    return view('KekayaanIntelektual.hakcipta');
 });
 
 Route::get('/paten', function () {
-    return view('paten');
+    return view('KekayaanIntelektual.paten');
 });
 
 Route::get('/merek', function () {
-    return view('merek');
+    return view('KekayaanIntelektual.merek');
 });
 
 Route::get('/desainIndustri', function () {
-    return view('desainIndustri');
+    return view('KekayaanIntelektual.desainIndustri');
 });
 
 Route::get('/DTLST', function () {
-    return view('DTLST');
+    return view('KekayaanIntelektual.DTLST');
 });
 
 Route::get('/dataki', function () {
@@ -64,4 +64,8 @@ Route::get('/dataki', function () {
 
 Route::get('/jasa', function () {
     return view('jasa');
+});
+
+Route::get('/komersial', function () {
+    return view('komersial');
 });

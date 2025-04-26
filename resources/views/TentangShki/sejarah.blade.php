@@ -1,7 +1,10 @@
 <x-layout>
-    <div class="flex flex-col place-self-center items-center max-w-4xl mt-30 px-4">
+    <div class="flex flex-col place-self-center items-center max-w-4xl mt-20 px-4">
+        <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full mb-4"></div>
         <h1 class="text-yellow-400 text-3xl md:text-2xl font-semibold uppercase">Sejarah</h1>
         <h1 class="text-black text-xl md:text-5xl font-semibold uppercase">Sentra HKI POLSRI</h1>
+        <p class="text-gray-500 mt-2 mb-4 text-center max-w-lg">Sejarah perkembangan dan peraturan HKI di Indonesia dari masa kolonial hingga era modern.</p>
+        <span class="inline-block bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">Sejarah HKI</span>
         <p class="mb-3 mt-16 text-black text-justify dark:text-gray-700   ">
             Secara historis, peraturan perundang-undangan di bidang HKI di Indonesia telah ada sejak tahun 1840-an. Pemerintah Kolonial Belanda memperkenalkan undang-undang pertama mengenai perlindungan HKI pada tahun 1844. Selanjutnya, Pemerintah Belanda mengundangkan UU Merek (1885), UU Paten (1910), dan UU Hak Cipta (1912). Indonesia yang pada waktu itu masih bernama Netherlands East-Indies telah menjadi anggota Paris Convention for the Protection of Industrial Property sejak tahun 1888 dan anggota Berne Convention for the Protection of Literary and Aristic Works sejak tahun 1914. Pada jaman pendudukan Jepang yaitu tahun 1942 s.d. 1945, semua peraturan perundang-undangan di bidang HKI tersebut tetap berlaku.
         </p>
