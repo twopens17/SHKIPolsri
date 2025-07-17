@@ -44,7 +44,7 @@ Route::get('/hakcipta', function () {
 
 Route::get('/paten', function () {
     return view('KekayaanIntelektual.paten');
-});
+})->name('paten');
 
 Route::get('/merek', function () {
     return view('KekayaanIntelektual.merek');
@@ -61,6 +61,22 @@ Route::get('/DTLST', function () {
 Route::get('/dataki', function () {
     return view('dataki');
 });
+
+Route::get('/data/pegawai', function () {
+    return view('data.pegawai');
+})->name('data.pegawai');
+
+Route::get('/data/program_studi', function () {
+    return view('data.program_studi');
+})->name('data.program_studi');
+
+Route::get('/data/departemen', function () {
+    return view('data.departemen');
+})->name('data.departemen');
+
+Route::get('/data/detail', function () {
+    return view('data.detail');
+})->name('data.detail');
 
 Route::get('/jasa', function () {
     return view('jasa');
